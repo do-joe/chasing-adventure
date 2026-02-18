@@ -79,6 +79,7 @@ function createMove(packName, move) {
       modifiedTime: null,
       lastModifiedBy: null
     },
+    _key: `!items!${id}`,
     sort: 0,
     ownership: { default: 0 }
   };
@@ -112,6 +113,7 @@ function createEquipment(move) {
       modifiedTime: null,
       lastModifiedBy: null
     },
+    _key: `!items!${id}`,
     sort: 0,
     ownership: { default: 0 }
   };
@@ -139,6 +141,7 @@ function createTag(tag) {
       modifiedTime: null,
       lastModifiedBy: null
     },
+    _key: `!items!${id}`,
     sort: 0,
     ownership: { default: 0 }
   };
@@ -168,6 +171,7 @@ function createPlaybook(pb) {
       modifiedTime: null,
       lastModifiedBy: null
     },
+    _key: `!items!${id}`,
     sort: 0,
     ownership: { default: 0 }
   };
