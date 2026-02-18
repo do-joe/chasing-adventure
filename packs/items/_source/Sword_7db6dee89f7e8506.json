@@ -1,0 +1,30 @@
+{
+  "_id": "7db6dee89f7e8506",
+  "name": "Sword",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>A standard one-handed blade. Also covers Axe or Mace.</p>",
+    "equipmentType": "weapon",
+    "tags": "[\"Intimate\",\"Close\",\"1 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 0
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

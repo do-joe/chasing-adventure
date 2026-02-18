@@ -1,0 +1,51 @@
+{
+  "_id": "34e400dab9fa2ee6",
+  "name": "Shapeshift",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Starting Move.</strong> When you call upon the wilds to change your shape, choose one of your Attuned Creatures to change into and roll+WIS.<br><br>While in an animal shape, you gain any innate abilities and weaknesses of the form: claws, wings, gills, etc. You also gain the Instinct of your new form. This primal urge is something innate to each creature and becomes a part of you while you are shapeshifted.<br><br>You don't need to Shapeshift to change back into your normal shape, though you may need to Resist Instinct.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>You transform quickly and without issue.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>You still transform, but you draw unwanted attention or trouble.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Druid",
+    "rollType": "wis",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

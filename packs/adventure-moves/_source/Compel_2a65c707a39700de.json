@@ -1,0 +1,51 @@
+{
+  "_id": "2a65c707a39700de",
+  "name": "Compel",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>When you use favor, payment, promises, or threats to get someone to do something, say what you want them to do (or not to do) and roll+CHA. If they Favor you, you may use up their Favor to gain Advantage on the roll.<br><br>If they are a PC, on a 10+ both below occur, on a 7-9 choose one below, and on a 6- they instead can immediately ask you two questions as if they Scrutinized you.<br>• If they do it, you will Favor them.<br>• If they don't do it, they have Disadvantage Forward and you no longer Favor them.</p>",
+    "requiresMove": "",
+    "moveType": "adventure",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>If they are an NPC, they'll do what you want.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>If they are an NPC, they'll only do it if you do something for them in return or Favor them afterwards, the GM will say which.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "cha",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "85fe046a05781b3a",
+  "name": "Hearty Feast",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>A warrior can endure hell itself if there's a good meal ready afterwards. When you share this feast with others while Settling In, every NPC who partakes Favors you, and every PC who partakes gains 1 Armor until they next Settle In or gains 1 XP, their choice.</p>",
+    "equipmentType": "gear",
+    "tags": "[\"2 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 1
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

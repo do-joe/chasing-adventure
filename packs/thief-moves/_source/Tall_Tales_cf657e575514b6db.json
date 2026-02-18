@@ -1,0 +1,51 @@
+{
+  "_id": "cf657e575514b6db",
+  "name": "Tall Tales",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Advanced Move.</strong> When you tell an outrageous lie that nobody in their right mind would believe, roll+CHA.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>All nearby NPCs believe you anyway, at least until they see or hear something that convinces them otherwise.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>They'll be fooled, but not for long.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Thief",
+    "rollType": "cha",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

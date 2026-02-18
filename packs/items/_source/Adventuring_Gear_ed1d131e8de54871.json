@@ -1,0 +1,30 @@
+{
+  "_id": "ed1d131e8de54871",
+  "name": "Adventuring Gear",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>A collection of useful mundane items such as chalk, poles, spikes, ropes, a frying pan, etc. When you rummage through your adventuring gear for some useful mundane item, mark off a use and acquire what you need. You can keep the item for future use.</p>",
+    "equipmentType": "gear",
+    "tags": "[\"5 Uses\",\"2 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 5
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

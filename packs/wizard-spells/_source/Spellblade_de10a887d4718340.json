@@ -1,0 +1,51 @@
+{
+  "_id": "de10a887d4718340",
+  "name": "Spellblade",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Ongoing.</strong> You conjure a weapon of pure magic, describe it and give it one or two range tags and Piercing.<br><br><em>Risk:</em> The weapon isn't Piercing.<br><em>Greater:</em> The weapon also has 2 traits from the Signature Weapon enhancements.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Wizard",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

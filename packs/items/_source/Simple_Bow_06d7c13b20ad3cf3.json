@@ -1,0 +1,30 @@
+{
+  "_id": "06d7c13b20ad3cf3",
+  "name": "Simple Bow",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>A basic bow for ranged combat.</p>",
+    "equipmentType": "weapon",
+    "tags": "[\"Near\",\"1 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 0
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "5373d952931cdaf6",
+  "name": "Tricks of the Trade",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Starting Move.</strong> When you bypass security measures in order to steal something or trespass somewhere, roll+DEX.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>You do it quickly and cleanly.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>You do it, but choose one:<br>• Authorities will discover your trail - gain 1 Heat.<br>• Someone nearby is alerted to your presence.<br>• There is an unexpected danger, trap, or ambush inside.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Thief",
+    "rollType": "dex",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

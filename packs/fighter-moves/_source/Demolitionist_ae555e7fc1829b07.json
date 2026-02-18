@@ -1,0 +1,51 @@
+{
+  "_id": "ae555e7fc1829b07",
+  "name": "Demolitionist",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Starting Move.</strong> When you want to destroy an object, be it a building, magical artifact, or obstacle, tell the GM what it is. It is always possible, but the GM will give you 1 to 4 of the following requirements (separated by \"ANDs\" and \"ORs\"):<br><br>• It's going to take hours/days/weeks.<br>• First you must ___.<br>• You'll need help from ___.<br>• You'll need to use ___.<br>• It will be easy/difficult to repair.<br>• You and your allies will risk ___.<br>• You'll have to use up/wear out ___.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Fighter",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

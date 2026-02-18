@@ -1,0 +1,24 @@
+{
+  "_id": "bf0fffd9d478cae5",
+  "name": "Distinctive",
+  "type": "tag",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "description": "<p>It has an obvious and unique sound, appearance, or impression when used.</p>"
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

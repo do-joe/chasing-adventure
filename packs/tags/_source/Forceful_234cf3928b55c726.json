@@ -1,0 +1,24 @@
+{
+  "_id": "234cf3928b55c726",
+  "name": "Forceful",
+  "type": "tag",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "description": "<p>It inflicts powerful, crushing blows that knock targets back and down.</p>"
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

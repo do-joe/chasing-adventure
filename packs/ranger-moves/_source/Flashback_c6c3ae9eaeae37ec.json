@@ -1,0 +1,51 @@
+{
+  "_id": "c6c3ae9eaeae37ec",
+  "name": "Flashback",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Starting Move.</strong> When you retroactively declare how you prepared for something in advance, spend Prep as determined by the GM using the guideline below. As a consequence during a flashback the GM may say something costs extra Prep. If you spend more Prep than you have, take a condition for each remaining Prep.<br><br>• 1 Prep - Ordinary action, easy opportunity, no rolls required, a short time ago.<br>• 2 Prep - Complex action, unlikely opportunity, one roll required, some time ago.<br>• 3 Prep - Elaborate action, special opportunity, several rolls required, a long time ago.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Ranger",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "75fcbee079912494",
+  "name": "Scrutinize",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>When you study someone during an intimate or prying conversation with them, roll+WIS.<br><br>Gain +1 Insight if they Favor you, even on a 6-.<br><br>During this conversation you can spend Insight 1-for-1 to ask their player (including the GM) any question about this person's thoughts, feelings, or motivations and they must answer truthfully.<br><br>Example questions:<br>• How might I get you to ___?<br>• How do you feel about ___?<br>• How can I gain your Favor?<br>• What is your goal?</p>",
+    "requiresMove": "",
+    "moveType": "adventure",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>Gain 2 Insight.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>Gain 1 Insight.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "wis",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

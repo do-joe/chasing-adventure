@@ -1,0 +1,51 @@
+{
+  "_id": "5424f72cf1a255c1",
+  "name": "End of Session",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>At the end of each session, answer the following questions as a group:<br><br>• Did we discover something new and important about the world or characters?<br>• Did we newly visit or significantly alter a memorable location?<br>• Did we overcome a notable obstacle, enemy, or challenge?<br><br>For each \"yes\" answer, everyone marks 1 XP.<br><br>Lastly, gain 1 XP if you accomplished your Drive.</p>",
+    "requiresMove": "",
+    "moveType": "peripheral",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

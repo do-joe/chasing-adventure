@@ -1,0 +1,30 @@
+{
+  "_id": "48ce73bd2d0ec915",
+  "name": "Bandolier of Vials",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>Some problems require unusual solutions. These vials are protected from ordinary spillage and breakage, while keeping them easily accessible. When you withdraw a vial, mark off one use and choose one type of vial below:<br>• Fiery - It can burst into flame.<br>• Acid - It can melt organic substances.<br>• Holy - It can cleanse corruption and undeath.<br>• Distinctive - It can make bright lights and loud noises.</p>",
+    "equipmentType": "gear",
+    "tags": "[\"5 Uses\",\"3 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 5
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

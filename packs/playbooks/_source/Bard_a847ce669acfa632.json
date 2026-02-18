@@ -1,0 +1,26 @@
+{
+  "_id": "a847ce669acfa632",
+  "name": "Bard",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "slug": "bard",
+    "description": "<p>You are the storyteller, the musician, the artist, the performer, the muse. Your art shapes the hearts and minds of all who witness it. You are the chronicler of this group's great adventure - and possibly its greatest hero.</p>",
+    "choiceSets": []
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

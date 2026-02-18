@@ -1,0 +1,51 @@
+{
+  "_id": "3afecec31fbb7e22",
+  "name": "Ritual",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Starting Move.</strong> When you set out to achieve a powerful magical effect, tell the GM what you're trying to achieve. Any and all Ritual effects are possible, but the GM will give you 1 to 4 of the following conditions (separated by \"ANDs\" and \"ORs\"):<br><br>• It's going to take days/weeks/months.<br>• First you must ___.<br>• You'll need help from ___.<br>• It will require ___.<br>• The effect will be unreliable or limited.<br>• You and your allies will risk ___.<br>• You'll have to destroy ___ to do it.<br><br>When you perform a Ritual while accessing a source of great magical power, you may ignore one requirement of your choice.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Wizard",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

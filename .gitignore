@@ -1,1 +1,10 @@
 ref/
+node_modules/
+
+# LevelDB compiled pack output (rebuild with npm run build)
+*.ldb
+packs/*/LOCK
+packs/*/LOG
+packs/*/LOG.old
+packs/*/CURRENT
+packs/*/MANIFEST-*

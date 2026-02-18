@@ -1,0 +1,24 @@
+{
+  "_id": "3a2b79dabcb49deb",
+  "name": "Clumsy",
+  "type": "tag",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "description": "<p>It's so incredibly cumbersome that you have Disadvantage on DEX rolls while using it.</p>"
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

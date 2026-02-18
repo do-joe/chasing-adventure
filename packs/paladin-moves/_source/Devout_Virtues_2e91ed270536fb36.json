@@ -1,0 +1,51 @@
+{
+  "_id": "2e91ed270536fb36",
+  "name": "Devout Virtues",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Starting Move.</strong> You adhere to a strict moral code that grants you power beyond that wielded by normal folk. Each virtue has a vow that must be kept and a boon it grants you. Choose two now:<br><br>• Courage: Refuse to let those who have power abuse it. While you physically stand in defense of another, they will not be targeted or harmed.<br>• Honor: Never harm the helpless or unaware. When you Decree an enemy to surrender or repent, you can treat a 6- as a 7-9.<br>• Justice: Suffer not a crime unpunished. When you question a captive or friendly individual, you know if they're lying.<br>• Loyalty: Remain true to your word and to your allies. Gain +1 Armor. When an ally Cooperates with you, you can share your Armor with them against conditions suffered from Cooperation.<br>• Mercy: Let no innocent creature suffer unaided in your presence. When you heal someone else, you are also healed of one condition.<br>• Purity: Abstain from mortal pleasures and finery. You are immune to all maladies, such as poisons, diseases, and curses.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Paladin",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

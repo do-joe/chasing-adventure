@@ -1,0 +1,30 @@
+{
+  "_id": "51f05c4448caf379",
+  "name": "Leather Armor",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>Light protective armor. Also covers Chain Mail or Gambeson.</p>",
+    "equipmentType": "armor",
+    "tags": "[\"1 Armor\",\"2 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 0
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

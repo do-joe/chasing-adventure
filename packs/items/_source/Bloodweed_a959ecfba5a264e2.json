@@ -1,0 +1,30 @@
+{
+  "_id": "a959ecfba5a264e2",
+  "name": "Bloodweed",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>Requires contact. Until they are cured, the first time the target would hurt someone each scene, they inflict no conditions.</p>",
+    "equipmentType": "gear",
+    "tags": "[\"Dangerous\",\"2 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 0
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

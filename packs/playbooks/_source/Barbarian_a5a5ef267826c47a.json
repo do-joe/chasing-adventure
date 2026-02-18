@@ -1,0 +1,26 @@
+{
+  "_id": "a5a5ef267826c47a",
+  "name": "Barbarian",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "slug": "barbarian",
+    "description": "<p>You have traveled from the furthest reaches of the world in search of something. Be it glory, honor, vengeance, or treasure, you know what is best in life and you take it. Those in these lands call you primitive and uncivilized, but you know better. Their world of law and etiquette is fragile and fleeting, and when it inevitably falls, you will persist.</p>",
+    "choiceSets": []
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

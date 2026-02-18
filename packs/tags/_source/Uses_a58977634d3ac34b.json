@@ -1,0 +1,24 @@
+{
+  "_id": "a58977634d3ac34b",
+  "name": "Uses",
+  "type": "tag",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "description": "<p>The amount of times you can typically use this item before it runs out or breaks.</p>"
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

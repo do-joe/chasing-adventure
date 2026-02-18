@@ -1,0 +1,30 @@
+{
+  "_id": "8865cf8070bf2c2d",
+  "name": "Flask of Whiskey",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>A dose of liquid courage has saved many an adventurer (and slain even more). When you down a draught of whiskey, mark off a use to roll with Advantage to act boldly or face down terror.</p>",
+    "equipmentType": "gear",
+    "tags": "[\"2 Uses\",\"1 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 2
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "a23d09be9a88e42f",
+  "name": "Spiked Chain",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>A vicious chain weapon. Also called a Whip.</p>",
+    "equipmentType": "weapon",
+    "tags": "[\"Close\",\"Vicious\",\"Awkward\",\"1 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 0
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

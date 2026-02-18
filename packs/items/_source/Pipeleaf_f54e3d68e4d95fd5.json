@@ -1,0 +1,30 @@
+{
+  "_id": "f54e3d68e4d95fd5",
+  "name": "Pipeleaf",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>Pipe tobacco is typically shared among long-time friends or would-be-acquaintances. When you offer to share pipeleaf with someone, and they accept, mark off a use and gain their Favor.</p>",
+    "equipmentType": "gear",
+    "tags": "[\"3 Uses\",\"2 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 3
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

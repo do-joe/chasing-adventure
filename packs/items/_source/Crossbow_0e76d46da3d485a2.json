@@ -1,0 +1,30 @@
+{
+  "_id": "0e76d46da3d485a2",
+  "name": "Crossbow",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>A mechanical ranged weapon that must be reloaded between shots.</p>",
+    "equipmentType": "weapon",
+    "tags": "[\"Near\",\"Distinctive\",\"Reload\",\"1 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 0
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

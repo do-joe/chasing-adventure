@@ -1,0 +1,26 @@
+{
+  "_id": "e39b96a2ab473a02",
+  "name": "Thief",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "slug": "thief",
+    "description": "<p>You live by your wits, your nimble fingers, and your ability to talk your way out of (or into) trouble. The shadows are your home, and every lock is just a puzzle waiting to be solved. You take what you want and leave nothing but rumors behind.</p>",
+    "choiceSets": []
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

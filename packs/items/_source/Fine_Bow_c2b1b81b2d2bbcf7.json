@@ -1,0 +1,30 @@
+{
+  "_id": "c2b1b81b2d2bbcf7",
+  "name": "Fine Bow",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>A well-crafted bow with excellent range.</p>",
+    "equipmentType": "weapon",
+    "tags": "[\"Near\",\"Far\",\"2 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 0
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

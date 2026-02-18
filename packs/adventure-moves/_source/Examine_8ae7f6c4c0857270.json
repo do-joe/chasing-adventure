@@ -1,0 +1,51 @@
+{
+  "_id": "8ae7f6c4c0857270",
+  "name": "Examine",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>When you closely investigate a charged situation, ask the GM one question about it and roll+WIS.<br><br>You and your allies roll with Advantage when first acting on this information.<br><br>Example questions:<br>• Who/what else is hidden?<br>• How can I gain the upper hand?<br>• What would happen here if I ___?<br>• Who is really in control here?</p>",
+    "requiresMove": "",
+    "moveType": "adventure",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>The GM answers your question and related followup questions truthfully.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>The GM answers your question truthfully.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "wis",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "8337d6c4ffe9128c",
+  "name": "Cleric",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "slug": "cleric",
+    "description": "<p>The power of faith flows through you. Your deity has chosen you as a vessel for their miracles, and in return you spread their word and serve their domain. Whether through healing, destruction, or divine guidance, you are the bridge between the mortal and the divine.</p>",
+    "choiceSets": []
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "620376faf4cc1775",
+  "name": "Rejoin",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>When you return after being away for a session or more, and explain your absence, say what happened and roll...<br><br>• +STR if you fought an enemy or escaped captivity.<br>• +DEX if you did something covert or illicit.<br>• +INT if you learned obscure or ancient knowledge, or invented something.<br>• +WIS if you discovered a scandalous secret, went on a long journey or retreat, or had a spiritual encounter.<br>• +CHA if you made an ally, integrated with a group or culture, or bought something interesting.</p>",
+    "requiresMove": "",
+    "moveType": "peripheral",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>Your adventure was prosperous - gain Advantage Forward and 2 XP.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>Your adventure was eventful - gain 2 XP, but the GM will tell you one or two unintended consequences.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": "<p>Your adventure was perilous - gain 1 XP and the GM will say what trouble has followed you back to the entire group.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "ask",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

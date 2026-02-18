@@ -1,0 +1,51 @@
+{
+  "_id": "9731f654deca1784",
+  "name": "Expressive Conflict",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Starting Move.</strong> You wield renowned artistic skill (music, writing, painting, etc.), which can do more than just capture hearts and minds. Choose two expressions that you know:<br><br>• Wield your art like a weapon for the scene. When you Engage or Let Fly using your art, you may roll+CHA instead of +STR or +DEX.<br>• Curse a foe, removing 2 of their unused Armor.<br>• Heal yourself or an ally of 1 condition.<br>• Distract, stun, or immobilize a foe.<br><br>You have 3 Art. When you Settle In, reset your Art to this number. When you invoke your artistry, you may spend 1 Art and unleash one known expression.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Bard",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "2f41e57a1ea7eedf",
+  "name": "Poisoner",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Starting Move.</strong> You've mastered the care and use of a poison. Choose one example poison from the list below, or work with the GM to create one. Poisons you have mastered are not Dangerous for you to use. When you Settle In, you can create a dose of each of your mastered poisons.<br><br>• Oil of Taggit: Must be consumed. The target falls into a light sleep.<br>• Bloodweed: Requires contact. Until they are cured, the first time the target would hurt someone each scene, they inflict no conditions.<br>• Goldenroot: Must be consumed. The target treats the next person they see as a trusted ally, until proved otherwise.<br>• Serpent's Tears: Requires contact. The target takes 1 extra condition when hurt until they are cured.<br>• Custom: Work with the GM to create one.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Thief",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

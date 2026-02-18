@@ -1,0 +1,30 @@
+{
+  "_id": "f6720c1cc72ff24c",
+  "name": "Serpent's Tears",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>Requires contact. The target takes 1 extra condition when hurt until they are cured.</p>",
+    "equipmentType": "gear",
+    "tags": "[\"Dangerous\",\"3 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 0
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

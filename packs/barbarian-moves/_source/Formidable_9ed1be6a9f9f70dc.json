@@ -1,0 +1,51 @@
+{
+  "_id": "9ed1be6a9f9f70dc",
+  "name": "Formidable",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Starting Move.</strong> You are known for your terrible proficiencies. Choose two:<br><br>• Unencumbered, Unharmed: You have 1 Armor as long as you are not restrained, are not wearing armor, and are not wielding a shield.<br>• Musclebound: Your weapons are always Forceful and Messy.<br>• Immovable Object: Your Armor can't be Pierced.<br>• Unstoppable Force: You have Advantage to Defy a moving danger (traps, swinging weapons, etc.).<br>• Eye for Weakness: At any time you can ask the GM \"Who or what here is weak or vulnerable?\", and they will tell you honestly.<br>• Walking Weapon: Your limbs and body are as formidable as the sharpest sword or heaviest hammer. You can harm any opponent unarmed.<br><br>When you Level Up, you may gain another proficiency instead of another benefit, up to a maximum of four proficiencies.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Barbarian",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

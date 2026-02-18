@@ -1,0 +1,24 @@
+{
+  "_id": "8a20eca52693d8a1",
+  "name": "Vicious",
+  "type": "tag",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "description": "<p>It harms foes in an especially painful, cruel, or debilitating way.</p>"
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

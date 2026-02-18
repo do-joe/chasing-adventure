@@ -1,0 +1,26 @@
+{
+  "_id": "401ef3c3025125b9",
+  "name": "Fighter",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "slug": "fighter",
+    "description": "<p>You are a warrior, born and bred for battle. Where others see obstacles, you see opportunities to test your skill. Your weapon is an extension of your will, and your will is iron.</p>",
+    "choiceSets": []
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

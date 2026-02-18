@@ -1,0 +1,26 @@
+{
+  "_id": "e8da3f1d1228b532",
+  "name": "Immolator",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "slug": "immolator",
+    "description": "<p>Fire is your gift, your curse, and your companion. It burns within you, demanding release. You channel its destructive beauty, walking the line between creation and annihilation. Some call you dangerous. They're right.</p>",
+    "choiceSets": []
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "ab9ccf5a9c6db305",
+  "name": "Watch the World Burn",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Requires Level 10+.</strong> When you channel the flames and call down a firestorm, tell the GM what you're sacrificing. The sky opens up and fire pours like rain within an area proportionate to your sacrifice; everyone and everything in the area is severely hurt or worse (2-3 conditions). Then roll+CHA.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>You can extinguish the storm with some effort when you so choose.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>The fires rage out of control, spreading and growing where they are carried by wind and weather.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": "<p>Something cruel, intelligent, and hungry arrives with the storm.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "Immolator",
+    "rollType": "cha",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

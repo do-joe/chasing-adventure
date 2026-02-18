@@ -1,0 +1,51 @@
+{
+  "_id": "6715031bdbc98788",
+  "name": "Start the Chase",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>When you enter a chase, either in pursuit or escape, you and your adversary form separate 'sides' that both start with 0 Edge. A chase usually has two sides, the chaser(s) and the chased, but there may be more.<br><br>When you Cooperate in a chase:<br>• If you are not part of the chase, you must join a side of it, and are involved in that side's Edge, conclusion and consequences.<br>• If you are already part of the chase, you must Push Yourself to Cooperate.</p>",
+    "requiresMove": "",
+    "moveType": "chase",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

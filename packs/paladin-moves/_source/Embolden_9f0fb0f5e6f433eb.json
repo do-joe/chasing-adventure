@@ -1,0 +1,51 @@
+{
+  "_id": "9f0fb0f5e6f433eb",
+  "name": "Embolden",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Advanced Move.</strong> When you give an inspiring speech to your allies before facing a dire threat, roll+CHA.<br><br>During the conflict, you and allies can spend 1 Inspiration to:<br>• Act fearlessly against terrifying foes or odds.<br>• Gain +1 Armor.<br>• Make their attack ignore Armor.<br><br>During the battle, the GM can spend 1 Fear to:<br>• Have you or an ally roll with Disadvantage.<br>• Have an enemy inflict an additional condition on an attack.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>You and each ally gains 2 Inspiration.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>You and each ally gains 1 Inspiration and the GM gains 2 Fear.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": "<p>The GM gains 3 Fear.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "Paladin",
+    "rollType": "cha",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

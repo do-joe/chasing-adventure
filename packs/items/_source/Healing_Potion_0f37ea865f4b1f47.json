@@ -1,0 +1,30 @@
+{
+  "_id": "0f37ea865f4b1f47",
+  "name": "Healing Potion",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>Though typically a flask or vial of thin red liquid, these potions can take many forms and flavors. When you drink an entire Healing Potion, immediately heal 3 conditions.</p>",
+    "equipmentType": "gear",
+    "tags": "[\"2 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 1
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

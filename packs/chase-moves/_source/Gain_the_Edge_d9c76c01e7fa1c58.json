@@ -1,0 +1,51 @@
+{
+  "_id": "d9c76c01e7fa1c58",
+  "name": "Gain the Edge",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>When you try to get ahead in a chase, say how much Edge you risk (1 to 3), and roll...<br><br>• +STR if you create or destroy obstacles.<br>• +DEX if you sprint, hide or maneuver.<br>• +INT if you distract or misdirect.<br>• +WIS if you watch or listen.<br>• +CHA if you disguise or provoke.<br><br>Then, unless a side has 3 or more Edge, the chase continues and the GM describes what happens next.</p>",
+    "requiresMove": "",
+    "moveType": "chase",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>Your side gains that Edge.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>Your side and an opposing side both gain that Edge. If there are multiple opposing sides, you choose which one gains it.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": "<p>An opposing side gains that Edge, the GM will say which.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "ask",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

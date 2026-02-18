@@ -1,0 +1,51 @@
+{
+  "_id": "bdab2457ee262bf4",
+  "name": "Connect",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>When you declare you know an NPC who could help and go looking for them, roll+CHA. If you also declare that you Favor them, gain Advantage on the roll.</p>",
+    "requiresMove": "",
+    "moveType": "peripheral",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>You easily find them and they're willing to help.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>They might help you, but the GM will choose one:<br>• They have a grudge against you or aren't entirely willing to trust you.<br>• They're already caught up in some trouble.<br>• They're far off, hiding, trapped, or hard to find.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "cha",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

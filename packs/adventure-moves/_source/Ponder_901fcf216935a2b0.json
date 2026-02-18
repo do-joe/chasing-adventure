@@ -1,0 +1,51 @@
+{
+  "_id": "901fcf216935a2b0",
+  "name": "Ponder",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>When you consider what you know about a subject, ask the GM one question about it, say how you might know the answer, and roll+INT.<br><br>You and your allies have Advantage when first acting on this information.<br><br>Example questions:<br>• Where is ___ located?<br>• What could have caused ___?<br>• What might be the best way to ___?<br>• What have I heard or read about this person/creature?</p>",
+    "requiresMove": "",
+    "moveType": "adventure",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>The GM will tell you the detailed, useful truth.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>They will tell you a vague, twisted, or incomplete truth.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "int",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

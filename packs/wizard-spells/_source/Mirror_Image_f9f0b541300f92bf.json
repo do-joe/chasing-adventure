@@ -1,0 +1,51 @@
+{
+  "_id": "f9f0b541300f92bf",
+  "name": "Mirror Image",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>You conjure two nearby illusory duplicates for the scene that mimic your actions and appearance. Each illusion counts as +1 Armor against physical harm and cannot be Pierced, but can be bypassed through Area attacks. When you use an illusion's Armor it dissipates. When you Evoke this Spell again all previously conjured duplicates dissipate.<br><br><em>Risk:</em> The illusion is flawed, and can be bypassed with Piercing attacks.<br><em>Greater:</em> You conjure three illusory duplicates instead of two.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Wizard",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "8c95f961105d9cdb",
+  "name": "Refuse",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>When you act against someone you Favor or deny their request, roll+Nothing.</p>",
+    "requiresMove": "",
+    "moveType": "favor",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>Choose one.<br>• Someone else no longer Favors you, the GM will say who.<br>• It will cost you or come back to bite you - the GM will say how now or when it's revealed.<br>• You have Disadvantage Forward against them.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>Choose two.<br>• Someone else no longer Favors you, the GM will say who.<br>• It will cost you or come back to bite you - the GM will say how now or when it's revealed.<br>• You have Disadvantage Forward against them.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": "<p>All three.<br>• Someone else no longer Favors you, the GM will say who.<br>• It will cost you or come back to bite you - the GM will say how now or when it's revealed.<br>• You have Disadvantage Forward against them.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

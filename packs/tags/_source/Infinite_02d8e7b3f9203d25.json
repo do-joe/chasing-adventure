@@ -1,0 +1,24 @@
+{
+  "_id": "02d8e7b3f9203d25",
+  "name": "Infinite",
+  "type": "tag",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "description": "<p>Too many to keep count. Throw one away, and you have another one. Severe consequences might still cause them all to be lost or destroyed.</p>"
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

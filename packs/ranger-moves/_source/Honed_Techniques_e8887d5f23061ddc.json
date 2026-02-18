@@ -1,0 +1,51 @@
+{
+  "_id": "e8887d5f23061ddc",
+  "name": "Honed Techniques",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Starting Move.</strong> You have learned many skills from your time in the wilderness. You may spend 1 Prep to use a known Technique at any time without rolling. Choose two Techniques that you know:<br><br>• Avoid: Roll with Advantage when Defying a physical threat.<br>• Exploit: Make an attack Pierce Armor.<br>• Impart: Message or signal someone nearby, covertly or openly.<br>• Maneuver: Rapidly move somewhere nearby, overcoming any natural obstacle or environment in the way.<br>• Snare: Trap someone or something in place for a short time (you may spend your Trap Kit instead of Prep to use this technique).<br>• Trick: Manipulate someone nearby to move somewhere specific.<br>• Vanish: Disappear within a nearby dense or obscuring environment.<br><br>When you Level Up, you may choose to learn an additional Technique instead of another benefit.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Ranger",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

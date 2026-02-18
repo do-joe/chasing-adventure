@@ -1,0 +1,51 @@
+{
+  "_id": "caa858b57b2bcdf6",
+  "name": "Guardian",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Ongoing.</strong> You conjure a being of magical energy (see Followers). By default it is a Warrior with the Brutality cost, looks like a ghostly humanoid, and attacks your enemies relentlessly. Your Guardian persists until destroyed, dismissed, or you conjure another. Choose two features:<br><br>• Adaptable: It takes the form of a previously-encountered creature of your choice.<br>• Skilled: It gains another Quality. You can pick this multiple times.<br>• Disciplined: It intelligently obeys your orders.<br><br><em>Risk:</em> The construct also gains the Unstable cost (They can sometimes be a danger to you, and you have to be prepared to put up with that.)<br><em>Greater:</em> You can choose an additional feature.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Wizard",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

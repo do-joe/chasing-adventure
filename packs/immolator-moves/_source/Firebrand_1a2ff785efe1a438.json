@@ -1,0 +1,51 @@
+{
+  "_id": "1a2ff785efe1a438",
+  "name": "Firebrand",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Starting Move.</strong> You can move and manipulate fire in a variety of ways - dimming, flaring, sparking, changing color, creating shapes and images, and more. Your fire is Distinctive, Fiery, and Near when you fight with it. Additionally, choose two traits for it:<br><br>• Adaptable: Your fire has the Intimate and Close tags.<br>• Restrained: You and nearby allies have +1 Armor against your fire and its effects.<br>• Ambitious: Your fire has the Far tag.<br>• Spontaneous: You can create fire rather than manipulate what's already burning.<br>• Bold: Your fire has the Area tag.<br><br>When you Burn a trait, your fire loses it until you next Settle In.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Immolator",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

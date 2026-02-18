@@ -1,0 +1,24 @@
+{
+  "_id": "fe7cccad723cb8f2",
+  "name": "Wealth",
+  "type": "tag",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "description": "<p>It typically costs X Wealth to purchase. Wealth is an abstract representation of your coins, treasure, and easily tradable goods.</p>"
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

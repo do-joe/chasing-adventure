@@ -108,39 +108,80 @@ Each playbook has:
 
 ### Module Structure
 
-Target structure for the built module:
+Target structure for the module:
 
 ```
 chasing-adventure/
   module.json
+  package.json                     # Dev dependency on @foundryvtt/foundryvtt-cli
+  build.mjs                        # Build script to compile packs from JSON source
   module/
-    chasing-adventure.mjs        # Main entry, pbtaSheetConfig hook
+    chasing-adventure.mjs          # Main entry, pbtaSheetConfig hook
     helper/
-      config-sheet.mjs           # Sheet config object
+      config-sheet.mjs             # Sheet config object
   packs/
-    adventure-moves/             # Compendium: core adventure moves
-    peripheral-moves/            # Compendium: peripheral moves
-    chase-moves/                 # Compendium: chase moves
-    favor-moves/                 # Compendium: favor moves
-    follower-moves/              # Compendium: follower moves
-    barbarian-moves/             # Compendium: per-playbook
+    adventure-moves/
+      _source/                     # JSON source files (one per move) — checked into git
+        Defy_xxxxxxxxxxxx.json
+        Engage_xxxxxxxxxxxx.json
+        ...
+      000005.ldb                   # LevelDB output — gitignored, built by build.mjs
+      ...
+    peripheral-moves/
+      _source/
+      ...
+    chase-moves/
+      _source/
+      ...
+    favor-moves/
+      _source/
+      ...
+    follower-moves/
+      _source/
+      ...
+    barbarian-moves/
+      _source/
+      ...
     bard-moves/
+      _source/
+      ...
     cleric-moves/
+      _source/
+      ...
     cleric-miracles/
+      _source/
+      ...
     druid-moves/
+      _source/
+      ...
     fighter-moves/
+      _source/
+      ...
     immolator-moves/
+      _source/
+      ...
     paladin-moves/
+      _source/
+      ...
     ranger-moves/
+      _source/
+      ...
     thief-moves/
+      _source/
+      ...
     wizard-moves/
+      _source/
+      ...
     wizard-spells/
-    items/                       # Compendium: weapons, armor, equipment, poisons
-    tags/                        # Compendium: item tags
+      _source/
+      ...
+    items/
+      _source/
+      ...
   styles/
-    chasing-adventure.css        # Custom styling (optional)
+    chasing-adventure.css          # Custom styling (optional)
   languages/
-    en.json                      # Localization
+    en.json                        # Localization
 ```
 
 ### Module Manifest Key Fields
@@ -161,13 +202,113 @@ chasing-adventure/
 }
 ```
 
+## Compendium Build Pipeline
+
+Compendium packs in Foundry v11+ use LevelDB (binary format). **Do not hand-edit LevelDB files.** Instead, author JSON source files and compile them using the official Foundry CLI.
+
+### Setup
+
+```bash
+npm install --save-dev @foundryvtt/foundryvtt-cli
+```
+
+### Discovering the JSON Schema
+
+Before authoring any pack content, **unpack the MotW example packs** to see the exact document schema that Foundry/PbtA expects:
+
+```javascript
+import { extractPack } from "@foundryvtt/foundryvtt-cli";
+
+// Extract moves to see what a PbtA move document looks like
+await extractPack("ref/motw-example/packs/basic-moves", "ref/motw-example/packs/basic-moves/_source");
+
+// Extract playbooks to see playbook actor documents
+await extractPack("ref/motw-example/packs/playbooks", "ref/motw-example/packs/playbooks/_source");
+
+// Extract items/tags
+await extractPack("ref/motw-example/packs/tags", "ref/motw-example/packs/tags/_source");
+```
+
+Run these extractions first and study the resulting JSON files. They are the ground truth for what fields are required, what `type` values to use, and how PbtA structures move/item/actor documents. Use these as templates when authoring Chasing Adventure content.
+
+### Authoring Source Files
+
+Each compendium entry is a single JSON file in `packs/<pack-name>/_source/`. The filename format is `<Name>_<id>.json` where `<id>` is a random 16-character alphanumeric string (e.g., `Defy_a1b2c3d4e5f6g7h8.json`). Generate unique IDs for each document.
+
+### Build Script
+
+Create `build.mjs` at the project root:
+
+```javascript
+import { compilePack } from "@foundryvtt/foundryvtt-cli";
+import fs from "fs";
+import path from "path";
+
+const packsDir = "./packs";
+
+const packDirs = fs.readdirSync(packsDir).filter(d =>
+  fs.existsSync(path.join(packsDir, d, "_source"))
+);
+
+for (const dir of packDirs) {
+  const src = path.join(packsDir, dir, "_source");
+  const dest = path.join(packsDir, dir);
+  await compilePack(src, dest);
+  console.log(`Packed ${dir}`);
+}
+```
+
+Add to `package.json`:
+
+```json
+{
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "build:packs": "node build.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "latest"
+  }
+}
+```
+
+Run with `npm run build` to compile all `_source/` directories into LevelDB packs.
+
+### Git Strategy
+
+- **Check in:** `packs/<name>/_source/*.json` (human-readable, diffable)
+- **Gitignore:** LevelDB output files in pack directories (the binary `.ldb`, `LOCK`, `LOG`, `MANIFEST-*`, `CURRENT`, `LOG.old` files)
+
+Add to `.gitignore`:
+
+```
+# LevelDB compiled pack output (rebuild with npm run build)
+packs/*/!(._source)
+!packs/*/_source
+# Simpler alternative: just ignore known LevelDB files
+*.ldb
+packs/*/LOCK
+packs/*/LOG
+packs/*/LOG.old
+packs/*/CURRENT
+packs/*/MANIFEST-*
+```
+
 ## Development Notes
 
 - **Target Foundry version:** v13
 - **PbtA system version:** 1.1.16+ (v13-compatible)
-- **Compendium format:** LevelDB (Foundry v10+). Packs are created by Foundry itself — define empty pack paths in `module.json`, then populate them via Foundry's UI or programmatically. For initial development, the JS sheet config is more important than pre-populated compendiums.
-- **Priority order:** Get the sheet config working first (stats, conditions, attributes, move types), then layer in compendium content (moves, items, playbooks).
 - **Testing:** Install the module into a local Foundry v13 instance at `{userData}/Data/modules/chasing-adventure/`, create a PbtA world, enable the module, and verify sheets render correctly.
+
+### Development Priority
+
+1. **Sheet config** — Get stats, conditions, attributes, roll formula, and move types working. This is the core of the module and must be correct before anything else matters.
+2. **Build pipeline** — Set up `package.json`, `build.mjs`, and `.gitignore`. Unpack MotW example packs to learn the JSON schema.
+3. **Core moves** — Author JSON source files for adventure moves, peripheral moves, chase moves, favor moves, and follower moves. These are shared by all playbooks.
+4. **Items** — Author weapons, armor, equipment, and poisons from the items reference.
+5. **Playbook moves** — Author starting and advanced moves for each of the 10 playbooks, plus wizard spells and cleric miracles.
+6. **Polish** — Custom CSS, localization, playbook actor templates.
 
 ## Style & Conventions
 

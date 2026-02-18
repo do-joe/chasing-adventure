@@ -1,0 +1,51 @@
+{
+  "_id": "f192bc7b189982b7",
+  "name": "Defy",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>When you act despite an imminent threat or obstacle, say how you do it. Then roll...<br><br>• +STR if you endure or power through it.<br>• +DEX if you act with speed or finesse.<br>• +INT if you employ quick or out-of-the-box thinking.<br>• +WIS if you rely on mental fortitude or sharp senses.<br>• +CHA if you use charm, intrigue, or social grace.</p>",
+    "requiresMove": "",
+    "moveType": "adventure",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>The threat doesn't come to bear.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>It only abates if you make a costly sacrifice or ugly choice, the GM will tell you what.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "ask",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

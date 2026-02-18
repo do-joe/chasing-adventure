@@ -1,0 +1,26 @@
+{
+  "_id": "6b01999878392b4a",
+  "name": "Druid",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "slug": "druid",
+    "description": "<p>You are one with the wild places of the world. The spirits of nature speak to you, and you can take their forms. Civilization is a thin veneer over the primal world, and you walk the boundary between both.</p>",
+    "choiceSets": []
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "bfc9f5fb6f6da8e7",
+  "name": "Scout Ahead",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Advanced Move.</strong> When you go off on your own to explore a dangerous area, roll+DEX. On a 7 or higher you make it back safely; the GM will describe what you encountered.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>Choose two:<br>• Ask the GM one question as if you rolled a 7-9 to Examine the area you explored (you can choose this multiple times).<br>• Bring something interesting or useful back, the GM will say what.<br>• You made preparations while there, gain 1 Prep.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>Choose one from the list.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": "<p>Choose one from the list, in addition to whatever the GM says.</p>"
+      }
+    },
+    "uses": 0,
+    "playbook": "Ranger",
+    "rollType": "dex",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

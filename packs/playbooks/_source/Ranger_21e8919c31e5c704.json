@@ -1,0 +1,26 @@
+{
+  "_id": "21e8919c31e5c704",
+  "name": "Ranger",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "slug": "ranger",
+    "description": "<p>You are at home in the wild, tracking prey and navigating treacherous terrain with practiced ease. Whether as a hunter, scout, or guardian of the frontier, you bridge the gap between civilization and the untamed world.</p>",
+    "choiceSets": []
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

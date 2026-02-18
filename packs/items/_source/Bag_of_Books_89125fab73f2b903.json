@@ -1,0 +1,30 @@
+{
+  "_id": "89125fab73f2b903",
+  "name": "Bag of Books",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>Anyone who thinks scholars are physically weak has obviously never carried a small library on their back while venturing into the depths. When your bag of books contains just the right book for the subject you're Pondering (your choice), mark off a use to acquire the book and use it to roll with Advantage. You can keep the book for future use.</p>",
+    "equipmentType": "gear",
+    "tags": "[\"5 Uses\",\"2 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 5
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

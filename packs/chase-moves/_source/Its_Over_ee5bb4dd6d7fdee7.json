@@ -1,0 +1,51 @@
+{
+  "_id": "ee5bb4dd6d7fdee7",
+  "name": "It's Over",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>When any side in a chase has 3 or more Edge, the chase comes to an end. Whoever has the most Edge succeeds in escaping or catching their quarry. If multiple sides tie for the most Edge, the side with the most PCs wins (just barely). If that is also tied, then the PC that last Gained the Edge chooses one side to win, with the other tying sides gaining +1 Edge for the purposes of spending it below.<br><br>Losing sides can spend their Edge 1-for-1 to:<br>• Learn something about another party (where they will go, who leads them, how to escape them now, etc.)<br>• Have the chase end somewhere advantageous for them (reinforcements, a trap or lair, an intervening third party, etc.)<br>• Grant Advantage Forward to all PCs on their side.<br>• Inflict Disadvantage Forward on all PCs on an opposing side.</p>",
+    "requiresMove": "",
+    "moveType": "chase",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

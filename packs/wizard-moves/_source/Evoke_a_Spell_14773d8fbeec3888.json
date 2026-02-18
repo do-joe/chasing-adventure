@@ -1,0 +1,51 @@
+{
+  "_id": "14773d8fbeec3888",
+  "name": "Evoke a Spell",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Starting Move.</strong> When you unleash your magical talents, choose a Spell you know and roll+SPELL.<br><br>You start with 2 Spells known. When you Level Up, you can choose to Learn a New Spell instead of another benefit.<br><br>SPELL is determined by your Background (INT for Scholar, WIS for Seer, CHA for Sorceror).</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>You successfully evoke the Spell and its effects come to pass.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>The Spell is still successful but choose one consequence:<br>• The Spell's Risk manifests as well.<br>• The Spell's magic drains you. You take -1 Ongoing to Evoke Spells until you next Settle In.<br>• Using it puts you in danger or draws unwanted attention, the GM will say how.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Wizard",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

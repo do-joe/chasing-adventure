@@ -1,0 +1,30 @@
+{
+  "_id": "944072a7135b8888",
+  "name": "Medicine",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>These might be poultices to heal wounds, herbal supplements to calm nerves, or similar remedies. When you take a few minutes to prepare and use Medicine, mark off a use and heal 2 conditions or another affliction on yourself or someone else.</p>",
+    "equipmentType": "gear",
+    "tags": "[\"2 Uses\",\"Slow\",\"2 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 2
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

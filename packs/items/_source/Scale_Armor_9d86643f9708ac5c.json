@@ -1,0 +1,30 @@
+{
+  "_id": "9d86643f9708ac5c",
+  "name": "Scale Armor",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>Heavy protective armor that restricts movement. Also covers Plate Armor.</p>",
+    "equipmentType": "armor",
+    "tags": "[\"2 Armor\",\"Clumsy\",\"3 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 0
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

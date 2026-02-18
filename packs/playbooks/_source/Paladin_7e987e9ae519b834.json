@@ -1,0 +1,26 @@
+{
+  "_id": "7e987e9ae519b834",
+  "name": "Paladin",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "slug": "paladin",
+    "description": "<p>You are a champion of righteousness, bound by sacred virtues. Your strength comes not just from your arm, but from your unwavering commitment to justice and your devout principles. Where corruption festers, you are the cleansing flame.</p>",
+    "choiceSets": []
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

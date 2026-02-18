@@ -1,0 +1,51 @@
+{
+  "_id": "df55f0785349e08f",
+  "name": "Crumble",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>When you mark your last condition (other than Armor), your life is untenable.<br><br>When your life is untenable, from conditions or otherwise, you're out of the action for a while. Say how and choose one from the list below:<br><br>• Lock a condition of your choice. It can't be removed except through a Level Up. You still gain XP from rolling with it.<br>• Change to a new Playbook (see Page 81)<br>• Die<br><br>If you're not dead, remove all conditions that aren't Locked. The GM will advance the Ominous Forces and say when you're back in the action.</p>",
+    "requiresMove": "",
+    "moveType": "peripheral",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

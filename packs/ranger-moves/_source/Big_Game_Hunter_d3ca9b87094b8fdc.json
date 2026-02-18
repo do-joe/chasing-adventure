@@ -1,0 +1,51 @@
+{
+  "_id": "d3ca9b87094b8fdc",
+  "name": "Big Game Hunter",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Advanced Move.</strong> There is always some creature or monster nearby that needs to be dealt with. Whenever you like, tell the GM there is a monster in the region. Then answer three of the questions below, and the GM will answer the remaining three questions in secret:<br><br>• How big is it?<br>• How many are there?<br>• Where is its lair?<br>• What are its defenses?<br>• What can it do?<br>• What valuables might it have?<br><br>When you show authorities proof that the threat is dealt with, gain 3 Wealth.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Ranger",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

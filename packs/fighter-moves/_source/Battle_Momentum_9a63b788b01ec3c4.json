@@ -1,0 +1,51 @@
+{
+  "_id": "9a63b788b01ec3c4",
+  "name": "Battle Momentum",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Starting Move.</strong> You perfectly understand the back and forth rhythm of a fight. When you suffer or inflict harm as part of a fight (even if it's absorbed with Armor), gain 1 Momentum. Anytime during a fight, you may spend the amount of Momentum in brackets for the following:<br><br>• (3) Restore 1 of your Armor<br>• (3) Inflict an extra condition on an attack<br>• (2) Gain Advantage Forward to Engage or Let Fly<br><br>You can have a maximum of 5 Momentum. When you Settle In, reset Momentum to 0.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Fighter",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

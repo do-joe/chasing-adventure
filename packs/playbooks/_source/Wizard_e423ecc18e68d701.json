@@ -1,0 +1,26 @@
+{
+  "_id": "e423ecc18e68d701",
+  "name": "Wizard",
+  "type": "playbook",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "slug": "wizard",
+    "description": "<p>You weave the very fabric of reality, binding chaos into order and manifesting your will upon the world. While some hope for rain, you conjure stormclouds. While others travel for weeks between cities, you step between worlds in a blink. Some may fear and revile you for your gifts. They do not know what magic is truly out there, or how yours is safer by far.</p>",
+    "choiceSets": []
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

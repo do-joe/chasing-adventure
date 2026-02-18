@@ -1,0 +1,51 @@
+{
+  "_id": "395b876b612fc020",
+  "name": "Captivate",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Starting Move.</strong> When you share an intimate or enchanting moment with someone, usually with time and privacy, roll+CHA.<br><br>They can reduce your Charm over them by 1 by:<br>• Giving you something they think you want.<br>• Doing something you tell them to do.<br>• Fighting to protect you.<br>• Favoring you, but only if they don't already.<br><br>If they're an NPC, they can't act out against you while Charmed. If they're a PC, you also can spend 1 Charm to inspire or distract them, granting them Advantage or Disadvantage on their next roll.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": "<p>You have 2 Charm over them.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": "<p>You have 1 Charm over them.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Immolator",
+    "rollType": "cha",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

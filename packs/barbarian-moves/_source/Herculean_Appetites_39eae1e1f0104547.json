@@ -1,0 +1,51 @@
+{
+  "_id": "39eae1e1f0104547",
+  "name": "Herculean Appetites",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Starting Move.</strong> Others may content themselves with just a taste of wine, or authority over a servant or two, but you want more. Choose two: Conquest, Pure Destruction, Fame and Glory, Power Over Others, Mortal Pleasures, Riches and Property.<br><br>When you refuse a golden opportunity to sate an appetite, take 1 condition.<br><br>When you sate an appetite, heal yourself of 1 condition.<br><br>When you Push Yourself in pursuit of an appetite, gain two sources of Advantage instead of one.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Barbarian",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

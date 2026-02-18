@@ -1,0 +1,51 @@
+{
+  "_id": "bf495823486a4ffa",
+  "name": "Pursuer",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Advanced Move.</strong> A significant NPC now leads the effort in your capture. This Pursuer will relentlessly chase you wherever you go, and always leads the charge whenever law enforcement moves against you. When you reset your Heat to 0 after dealing with your Pursuer, first gain XP equal to your Heat. Next time they'll be back stronger or better prepared. When your Pursuer is no longer able or willing to hunt you, you temporarily lose access to the rest of this Move. When you Settle In, you may tell the GM that you have gained a new Pursuer and regain access to this Move.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Thief",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

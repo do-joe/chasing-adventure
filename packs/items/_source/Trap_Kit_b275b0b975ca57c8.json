@@ -1,0 +1,30 @@
+{
+  "_id": "b275b0b975ca57c8",
+  "name": "Trap Kit",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>A bear trap, tripwire rig, bag of caltrops or marbles, or similar. When you spend time setting up your trap kit in advance, it becomes a dangerous, impeding hazard for anyone that enters its range.</p>",
+    "equipmentType": "gear",
+    "tags": "[\"Dangerous\",\"Slow\",\"1 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 0
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

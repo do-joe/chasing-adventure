@@ -1,0 +1,30 @@
+{
+  "_id": "ec7d573df48a2bd3",
+  "name": "Supplies",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>Food, water, bandages, anything that can offer relief during a moment of respite. When you spend a few minutes using your supplies, mark off a use and heal 1 condition on yourself or another.</p>",
+    "equipmentType": "gear",
+    "tags": "[\"3 Uses\",\"Slow\",\"1 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 3
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_id": "2f03ae00788e293d",
+  "name": "Thaumaturgy",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Advanced Move.</strong> You no longer have to touch someone to Atone for them. When you petition your deity to perform a great miracle that pertains to their domains, tell the GM what you desire, they will give you a number of appropriate conditions based on the guidelines below, or say no. Like with Atone, you can spend Spirit like Armor to absorb conditions gained from Thaumaturgy.<br><br>1 Condition - Feed a large crowd<br>2 Conditions - Calm a raging storm<br>3 Conditions - Foresee an Ominous Force<br>4 Conditions - Summon a divine envoy<br>5 Conditions - Destroy or reshape a land</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Cleric",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

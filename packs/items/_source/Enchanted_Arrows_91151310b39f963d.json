@@ -1,0 +1,30 @@
+{
+  "_id": "91151310b39f963d",
+  "name": "Enchanted Arrows",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>While adventurers are assumed to have as many ordinary arrows as they need, these arrows are exceptionally accurate and expensive. When you Let Fly using Enchanted Arrows, on a 7-9 you may spend 1 use to treat it as a 10+.</p>",
+    "equipmentType": "gear",
+    "tags": "[\"3 Uses\",\"2 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 3
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

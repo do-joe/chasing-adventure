@@ -1,0 +1,24 @@
+{
+  "_id": "56df8f728f898aaf",
+  "name": "Armor",
+  "type": "tag",
+  "img": "icons/svg/book.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "description": "<p>Provides X Armor which can be used up 1-for-1 instead of taking conditions from physical harm. Usually only one source of Armor can be used or worn at a time, but if the tag has a + symbol then it can be used alongside other Armor and adds its Armor value to it.</p>"
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

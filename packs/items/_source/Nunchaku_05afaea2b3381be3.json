@@ -1,0 +1,30 @@
+{
+  "_id": "05afaea2b3381be3",
+  "name": "Nunchaku",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>Two connected sticks swung with skill. Also called a Setsukon.</p>",
+    "equipmentType": "weapon",
+    "tags": "[\"Intimate\",\"Close\",\"Awkward\",\"1 Wealth\"]",
+    "quantity": 1,
+    "weight": 0,
+    "uses": 0
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

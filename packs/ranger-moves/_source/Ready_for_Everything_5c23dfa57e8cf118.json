@@ -1,0 +1,51 @@
+{
+  "_id": "5c23dfa57e8cf118",
+  "name": "Ready for Everything",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p><strong>Requires Level 10+.</strong> When you use a Honed Technique, you may spend 2 Prep instead of 1 to increase the effect in the following ways:<br><br>• Avoid: Roll with Advantage to Defy anything.<br>• Exploit: Make an attack Pierce Armor and deal an extra condition.<br>• Impart: Message or signal someone anywhere, covertly or openly, and know their response.<br>• Maneuver: Rapidly move somewhere nearby, overcoming any number of enemies, obstacles, or environments in the way.<br>• Snare: Trap someone or something in place until you release them (you may spend your Trap Kit plus 1 Prep to use this technique).<br>• Trick: Manipulate someone nearby to act precisely how you wish.<br>• Vanish: Disappear within any environment.</p>",
+    "requiresMove": "",
+    "moveType": "class",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "Ranger",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}

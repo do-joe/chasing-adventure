@@ -1,0 +1,51 @@
+{
+  "_id": "0d774d526915fccd",
+  "name": "Level Up",
+  "type": "move",
+  "img": "icons/svg/dice-target.svg",
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "system": {
+    "name": "",
+    "description": "<p>When you have 5 or more XP after Settling In, reduce your XP by 5, increase your Level by 1, and choose one benefit below:<br><br>You can always take these options:<br>• Increase a stat of your choice from +0 to +1.<br>• Take an Advanced Move from your playbook.<br>• Acquire an Asset (see Page 26).<br>• Remove a Locked condition (see Crumble).<br>• Change Playbooks (see Page 81).<br><br>You can take these options only once each:<br>• Increase a stat of your choice from +1 to +2.<br>• Increase a stat of your choice from +1 to +2.<br>• Take a Starting or Advanced Move from another playbook.<br>• Take a Starting or Advanced Move from another playbook.<br><br>Once you reach Level 10 you can also always take these options:<br>• Take an Advanced Move (Level 10+) from your playbook.<br>• Increase a stat of your choice from +2 to +3.<br>• Retire to safety and cease your adventuring.</p>",
+    "requiresMove": "",
+    "moveType": "peripheral",
+    "rollFormula": "",
+    "moveGroup": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "Success!",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "Partial Success",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss...",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "playbook": "",
+    "rollType": "",
+    "rollMod": 0,
+    "choices": ""
+  },
+  "_stats": {
+    "systemId": "pbta",
+    "systemVersion": "1.1.16",
+    "coreVersion": "13.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  }
+}
