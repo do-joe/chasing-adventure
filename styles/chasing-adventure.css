@@ -1,0 +1,96 @@
+/* Chasing Adventure PbtA Module Styles */
+
+/* Sheet background */
+.pbta.sheet:is(.actor, .item) section.window-content {
+  background-color: #f0e8d8;
+  color: #2c1810;
+}
+
+/* Stat blocks */
+.pbta.sheet .sheet-attributes .cell--stats .stat,
+.pbta.sheet .tabs .item {
+  background: #4a3728;
+  border-color: #4a3728;
+}
+
+.pbta.sheet .sheet-attributes .cell--stats .stat :is(.cell__title, .stat-icon) {
+  text-shadow: 0 0 5px #1a0e08;
+}
+
+/* Hover states */
+.pbta.sheet :is(.sheet-attributes .cell--stats .stat, .tabs .item, .cell__title button):hover {
+  background: #8b5e3c;
+  color: white;
+}
+
+.pbta.sheet .tabs .item {
+  background: #f5f0e8;
+  color: #2c1810;
+  border-bottom: 2px solid #4a3728;
+}
+
+.pbta.sheet .tabs .item.active {
+  background: #4a3728;
+  font-weight: normal;
+  text-shadow: 0 0 5px #1a0e08;
+}
+
+.pbta.sheet .tabs .item:is(:hover, :focus) {
+  border-color: white;
+  border-bottom-color: #4a3728;
+}
+
+/* Input hover effects */
+.pbta.sheet :is(.cell--attributes-top, .cell--attributes-left) input:hover {
+  box-shadow: 0 0 5px #8b5e3c;
+}
+
+/* Buttons */
+.pbta.sheet .cell__title button,
+.pbta.sheet .cell__subtitle button {
+  color: #6b3a1f;
+  border: 1px solid #6b3a1f;
+}
+
+.pbta.sheet .cell__title button:hover {
+  border-color: white;
+}
+
+/* Editor content */
+.pbta.sheet .sheet-wrapper .editor-content {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+/* Character image */
+.pbta.sheet .cell--image {
+  background: rgba(74, 55, 40, 0.2);
+}
+
+/* Item controls */
+.pbta.sheet .item-controls a.item-control:hover {
+  color: white;
+  text-shadow: 0 0 5px #4a3728;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #6b3a1f;
+  border: 1px solid #8b5e3c;
+}
+
+/* Condition list styling */
+.pbta.sheet :is(.cell--attr-type) .cell__checkboxes {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Header fields */
+.pbta.sheet:not(.npc) .sheet-header__fields {
+  display: flex;
+  margin-right: 5px;
+}
+
+.pbta.sheet .sheet-header__fields i.fa-solid.fa-book {
+  align-self: center;
+  margin: 0 -5px 0 5px;
+}

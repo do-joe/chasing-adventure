@@ -1,0 +1,223 @@
+{
+  "id": "chasing-adventure",
+  "title": "Chasing Adventure",
+  "description": "Chasing Adventure custom sheet and compendium module, to be used with Asacolips' Powered by the Apocalypse system.",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "jjk3"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pbta",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.1.16"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "./module/chasing-adventure.mjs"
+  ],
+  "styles": [
+    "styles/chasing-adventure.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "./languages/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "label": "Adventure Moves",
+      "type": "Item",
+      "name": "adventure-moves",
+      "path": "packs/adventure-moves",
+      "system": "pbta"
+    },
+    {
+      "label": "Peripheral Moves",
+      "type": "Item",
+      "name": "peripheral-moves",
+      "path": "packs/peripheral-moves",
+      "system": "pbta"
+    },
+    {
+      "label": "Chase Moves",
+      "type": "Item",
+      "name": "chase-moves",
+      "path": "packs/chase-moves",
+      "system": "pbta"
+    },
+    {
+      "label": "Favor Moves",
+      "type": "Item",
+      "name": "favor-moves",
+      "path": "packs/favor-moves",
+      "system": "pbta"
+    },
+    {
+      "label": "Follower Moves",
+      "type": "Item",
+      "name": "follower-moves",
+      "path": "packs/follower-moves",
+      "system": "pbta"
+    },
+    {
+      "label": "Barbarian Moves",
+      "type": "Item",
+      "name": "barbarian-moves",
+      "path": "packs/barbarian-moves",
+      "system": "pbta"
+    },
+    {
+      "label": "Bard Moves",
+      "type": "Item",
+      "name": "bard-moves",
+      "path": "packs/bard-moves",
+      "system": "pbta"
+    },
+    {
+      "label": "Cleric Moves",
+      "type": "Item",
+      "name": "cleric-moves",
+      "path": "packs/cleric-moves",
+      "system": "pbta"
+    },
+    {
+      "label": "Cleric Miracles",
+      "type": "Item",
+      "name": "cleric-miracles",
+      "path": "packs/cleric-miracles",
+      "system": "pbta"
+    },
+    {
+      "label": "Druid Moves",
+      "type": "Item",
+      "name": "druid-moves",
+      "path": "packs/druid-moves",
+      "system": "pbta"
+    },
+    {
+      "label": "Fighter Moves",
+      "type": "Item",
+      "name": "fighter-moves",
+      "path": "packs/fighter-moves",
+      "system": "pbta"
+    },
+    {
+      "label": "Immolator Moves",
+      "type": "Item",
+      "name": "immolator-moves",
+      "path": "packs/immolator-moves",
+      "system": "pbta"
+    },
+    {
+      "label": "Paladin Moves",
+      "type": "Item",
+      "name": "paladin-moves",
+      "path": "packs/paladin-moves",
+      "system": "pbta"
+    },
+    {
+      "label": "Ranger Moves",
+      "type": "Item",
+      "name": "ranger-moves",
+      "path": "packs/ranger-moves",
+      "system": "pbta"
+    },
+    {
+      "label": "Thief Moves",
+      "type": "Item",
+      "name": "thief-moves",
+      "path": "packs/thief-moves",
+      "system": "pbta"
+    },
+    {
+      "label": "Wizard Moves",
+      "type": "Item",
+      "name": "wizard-moves",
+      "path": "packs/wizard-moves",
+      "system": "pbta"
+    },
+    {
+      "label": "Wizard Spells",
+      "type": "Item",
+      "name": "wizard-spells",
+      "path": "packs/wizard-spells",
+      "system": "pbta"
+    },
+    {
+      "label": "Items",
+      "type": "Item",
+      "name": "items",
+      "path": "packs/items",
+      "system": "pbta"
+    },
+    {
+      "label": "Tags",
+      "type": "Item",
+      "name": "tags",
+      "path": "packs/tags",
+      "system": "pbta"
+    },
+    {
+      "label": "Playbooks",
+      "type": "Item",
+      "name": "playbooks",
+      "path": "packs/playbooks",
+      "system": "pbta"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Core Moves",
+      "packs": [
+        "adventure-moves",
+        "peripheral-moves",
+        "chase-moves",
+        "favor-moves",
+        "follower-moves"
+      ]
+    },
+    {
+      "name": "Playbook Moves",
+      "packs": [
+        "barbarian-moves",
+        "bard-moves",
+        "cleric-moves",
+        "druid-moves",
+        "fighter-moves",
+        "immolator-moves",
+        "paladin-moves",
+        "ranger-moves",
+        "thief-moves",
+        "wizard-moves"
+      ]
+    },
+    {
+      "name": "Spells & Miracles",
+      "packs": [
+        "cleric-miracles",
+        "wizard-spells"
+      ]
+    },
+    {
+      "name": "Equipment & Tags",
+      "packs": [
+        "items",
+        "tags",
+        "playbooks"
+      ]
+    }
+  ]
+}
