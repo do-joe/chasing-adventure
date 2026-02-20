@@ -91,64 +91,8 @@ export const configSheet = async () => {
             value: 0
           }
         },
-        // Left attributes — conditions, drive, look, favor, background, playbook-specific
+        // Left attributes — drive, look, favor, background, playbook-specific
         attrLeft: {
-          // Conditions — ListMany tracking individual conditions by stat
-          conditions: {
-            label: i18n("ca.character.attrLeft.conditions.label"),
-            description: i18n("ca.character.attrLeft.conditions.description"),
-            customLabel: false,
-            userLabel: false,
-            position: "left",
-            type: "ListMany",
-            condition: false,
-            options: {
-              "0": {
-                label: i18n("ca.character.attrLeft.conditions.options.weakened"),
-                value: false
-              },
-              "1": {
-                label: i18n("ca.character.attrLeft.conditions.options.nauseous"),
-                value: false
-              },
-              "2": {
-                label: i18n("ca.character.attrLeft.conditions.options.dizzy"),
-                value: false
-              },
-              "3": {
-                label: i18n("ca.character.attrLeft.conditions.options.shaky"),
-                value: false
-              },
-              "4": {
-                label: i18n("ca.character.attrLeft.conditions.options.stunned"),
-                value: false
-              },
-              "5": {
-                label: i18n("ca.character.attrLeft.conditions.options.dazed"),
-                value: false
-              },
-              "6": {
-                label: i18n("ca.character.attrLeft.conditions.options.forgetful"),
-                value: false
-              },
-              "7": {
-                label: i18n("ca.character.attrLeft.conditions.options.confused"),
-                value: false
-              },
-              "8": {
-                label: i18n("ca.character.attrLeft.conditions.options.exhausted"),
-                value: false
-              },
-              "9": {
-                label: i18n("ca.character.attrLeft.conditions.options.scarred"),
-                value: false
-              },
-              "10": {
-                label: i18n("ca.character.attrLeft.conditions.options.grumpy"),
-                value: false
-              }
-            }
-          },
           drive: {
             label: i18n("ca.character.attrLeft.drive.label"),
             description: i18n("ca.character.attrLeft.drive.description"),
@@ -484,7 +428,7 @@ export const configSheet = async () => {
   // Hide PbtA sheet config options that aren't relevant
   await game.settings.set('pbta', 'advForward', true);
   await game.settings.set('pbta', 'hideRollFormula', true);
-  await game.settings.set('pbta', 'hideForward', false);
+  await game.settings.set('pbta', 'hideForward', true);
   await game.settings.set('pbta', 'hideOngoing', true);
   await game.settings.set('pbta', 'hideHold', true);
   await game.settings.set('pbta', 'hideRollMode', false);

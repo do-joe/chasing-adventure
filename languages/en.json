@@ -33,23 +33,6 @@
         }
       },
       "attrLeft": {
-        "conditions": {
-          "label": "Conditions",
-          "description": "When a stat has a condition, rolls with that stat have Disadvantage but earn 1 XP. When all conditions are marked, you Crumble.",
-          "options": {
-            "weakened": "Weakened (STR)",
-            "nauseous": "Nauseous (STR)",
-            "dizzy": "Dizzy (DEX)",
-            "shaky": "Shaky (DEX)",
-            "stunned": "Stunned (DEX)",
-            "dazed": "Dazed (INT)",
-            "forgetful": "Forgetful (INT)",
-            "confused": "Confused (WIS)",
-            "exhausted": "Exhausted (WIS)",
-            "scarred": "Scarred (CHA)",
-            "grumpy": "Grumpy (CHA)"
-          }
-        },
         "drive": {
           "label": "Drive",
           "description": "Your current motivation. Changed via Epiphany."
