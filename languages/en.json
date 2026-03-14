@@ -19,7 +19,7 @@
       "attrTop": {
         "xp": {
           "label": "XP",
-          "description": "Mark 5 to Level Up when you Settle In."
+          "description": "Earn XP. Level up when you Settle In with 5+ XP."
         },
         "level": {
           "label": "Level"

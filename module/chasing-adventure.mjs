@@ -65,3 +65,23 @@ Hooks.once('pbtaSheetConfig', () => {
   // Load the Chasing Adventure sheet config
   configSheet();
 });
+
+Hooks.once('ready', async () => {
+  // Migrate XP from old Xp type (steps/max fields) to Number type
+  const characters = game.actors.filter(a => a.type === 'character');
+  for (const actor of characters) {
+    const xp = actor.system?.attributes?.xp;
+    if (xp && ('steps' in xp || xp.type === 'Xp')) {
+      const value = xp.value ?? 0;
+      await actor.update({
+        'system.attributes.xp': {
+          type: 'Number',
+          value,
+          '-=steps': null,
+          '-=max': null
+        }
+      });
+      console.log(`Chasing Adventure | Migrated XP for ${actor.name} (value: ${value})`);
+    }
+  }
+});

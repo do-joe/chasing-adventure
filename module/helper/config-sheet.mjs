@@ -58,10 +58,8 @@ export const configSheet = async () => {
             customLabel: false,
             userLabel: false,
             position: "top",
-            type: "Xp",
-            value: 0,
-            max: 5,
-            steps: [false, false, false, false, false]
+            type: "Number",
+            value: 0
           },
           level: {
             label: i18n("ca.character.attrTop.level.label"),
