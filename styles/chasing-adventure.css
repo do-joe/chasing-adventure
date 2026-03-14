@@ -78,6 +78,13 @@
   border: 1px solid #8b5e3c;
 }
 
+/* XP reminder highlight in chat cards */
+.chat-message .conditions li.xp-reminder {
+  color: #7b2d8e;
+  font-weight: bold;
+  text-shadow: 0 0 1px rgba(123, 45, 142, 0.3);
+}
+
 /* Condition list styling */
 .pbta.sheet :is(.cell--attr-type) .cell__checkboxes {
   flex-direction: row;

@@ -67,6 +67,58 @@ Hooks.once('pbtaSheetConfig', () => {
 });
 
 Hooks.once('ready', async () => {
+  // Override RollPbtA.configureModifiers to cancel advantage + disadvantage
+  const RollPbtA = CONFIG.Dice.RollPbtA;
+  if (RollPbtA) {
+    const originalConfigureModifiers = RollPbtA.prototype.configureModifiers;
+    RollPbtA.prototype.configureModifiers = function () {
+      // Resolve which stat is being rolled
+      const { stat: statOption, rollType } = this.options;
+      let stat = rollType;
+      if (typeof statOption === 'object' && statOption?.key) stat = statOption.key;
+      else if (typeof statOption === 'string') stat = statOption;
+
+      if (this.hasAdvantage && this.hasDisadvantage) {
+        // Both advantage and disadvantage — cancel both out to a normal 2d6 roll.
+        // Temporarily clear rollMode and stat toggle so the original method sees neither.
+        const savedRollMode = this.options.rollMode;
+        this.options.rollMode = 'def';
+
+        let savedToggle;
+        if (stat && this.data.stats[stat]) {
+          savedToggle = this.data.stats[stat].toggle;
+          this.data.stats[stat].toggle = false;
+        }
+
+        originalConfigureModifiers.call(this);
+
+        // Restore original values
+        this.options.rollMode = savedRollMode;
+        if (stat && this.data.stats[stat] && savedToggle !== undefined) {
+          this.data.stats[stat].toggle = savedToggle;
+        }
+      } else {
+        originalConfigureModifiers.call(this);
+      }
+
+      // If the stat has a condition marked (toggle active), remind to gain XP
+      if (stat && this.data.stats[stat]?.toggle) {
+        if (!this.options.conditions) this.options.conditions = [];
+        this.options.conditions.push('Gain 1 XP (conditioned stat)');
+      }
+    };
+    console.log('Chasing Adventure | Advantage/disadvantage cancellation enabled');
+  }
+
+  // Highlight XP reminders in chat cards
+  Hooks.on('renderChatMessageHTML', (message, html) => {
+    html.querySelectorAll('.conditions li').forEach(li => {
+      if (li.textContent.includes('Gain 1 XP')) {
+        li.classList.add('xp-reminder');
+      }
+    });
+  });
+
   // Migrate XP from old Xp type (steps/max fields) to Number type
   const characters = game.actors.filter(a => a.type === 'character');
   for (const actor of characters) {
